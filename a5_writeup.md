@@ -30,3 +30,5 @@ After completing the assignment, answer the following reflection questions:
 
 
 3. Explain how the Stack and Queue classes work and why they are important for DFS and BFS algorithms. Describe the difference between LIFO (Last In First Out) and FIFO (First In First Out) data structures. How does using a Stack versus a Queue change the way the search algorithm explores possible solutions? Why is one data structure better suited for depth-first search and the other for breadth-first search?
+
+Stack uses LIFO which means the last item added is the first taken out. That item is then used in DFS to explore one path thoroughly before backtracking. Queue uses FIFO where the first item added is the first taken out. That item is then used to explore all neighbors before moving lower. Using Stack makes the search go as deep as possible first, while Queue makes it move level by level.
