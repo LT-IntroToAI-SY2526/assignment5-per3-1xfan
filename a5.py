@@ -392,17 +392,17 @@ if __name__ == "__main__":
 
     print("<<<<<<<<<<<<<< Testing DFS on First Game >>>>>>>>>>>>>>")
 
-    test_dfs_or_bfs(True, first_moves)
+    # test_dfs_or_bfs(True, first_moves)
 
     print("<<<<<<<<<<<<<< Testing DFS on Second Game >>>>>>>>>>>>>>")
 
-    test_dfs_or_bfs(True, second_moves)
+    # test_dfs_or_bfs(True, second_moves)
 
     print("<<<<<<<<<<<<<< Testing BFS on First Game >>>>>>>>>>>>>>")
 
-    # test_dfs_or_bfs(False, first_moves)
+    test_dfs_or_bfs(False, first_moves)
 
     print("<<<<<<<<<<<<<< Testing BFS on Second Game >>>>>>>>>>>>>>")
 
-    # test_dfs_or_bfs(False, second_moves)
+    test_dfs_or_bfs(False, second_moves)
     pass
